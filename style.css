@@ -160,3 +160,17 @@ input{
     color: brown;
     font-size:  large;
 }
+
+.travel{
+    display: flex;
+    
+}
+
+.visit{
+    background-color: aqua;
+     margin: 6px 25px;
+     padding: 8px;
+     text-align: center;
+     border: 4px rgb(64, 255, 0) solid;
+     border-radius: 12px;
+}

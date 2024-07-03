@@ -1,0 +1,84 @@
+header{
+    display: flex;
+    background-color: rgb(194, 91, 91);
+    color: black;
+}
+
+header img{
+    padding: 25px;
+}
+
+header h1{
+    margin-left: 200px;
+}
+
+header ul{
+    display: flex;
+    padding: 20px;
+    margin-left: 60px;
+}
+
+header li{
+    list-style: none;
+    margin-left: 20px;
+}
+
+header a{
+    text-decoration: none;
+    background-color: rgb(29, 7, 89);
+    color: white;
+    padding: 8px;
+    border-radius: 20px;
+
+}
+
+header a:hover{
+    background-color: rgb(55, 16, 162);
+    font-size: larger;
+    display: inline-block;
+}
+
+label{
+    padding: 30px;
+    font-size: x-large;
+
+}
+
+input{
+    width: 200px;
+    height: 15px;
+     margin-top: 33px;
+     padding: 4px;
+     border-radius: 15px;
+}
+
+.hero{
+    background-image: url('/images/hero.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+     
+    width: full;
+    height: 300px;
+    text-align: center;
+    background-position-x: center;
+}
+
+.hero h1{
+    color: aliceblue;
+    margin: 30px;
+     
+}
+
+.hero button{
+    padding: 14px;
+    background-color: coral;
+    color: rgb(10, 10, 81);
+    border-radius: 15px;
+    font-size: larger;
+}
+
+.hero button:hover{
+    background-color: cadetblue;
+    font-size: xx-large;
+    color: rgb(120, 6, 63);
+}

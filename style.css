@@ -9,18 +9,18 @@ header img{
 }
 
 header h1{
-    margin-left: 200px;
+    margin-left: 100px;
 }
 
 header ul{
     display: flex;
     padding: 20px;
-    margin-left: 60px;
+    margin-left: 20px;
 }
 
 header li{
     list-style: none;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 header a{
@@ -119,4 +119,44 @@ input{
      margin-left: 300px;
      
     text-align: center;
+}
+.blog{
+    display: flex;
+   
+}
+.blogs{
+     background-color: aqua;
+     margin: 6px;
+     padding: 4px;
+     text-align: center;
+     border: 4px red solid;
+     border-radius: 12px;
+    
+}
+
+.blogs:hover{
+    background-color: rgb(119, 177, 177); 
+    color: azure;
+}
+.blogs img{
+    margin-top: 6px;
+     
+}
+
+.blogs img:hover{
+    width: 180px;
+    height: 180px;
+}
+
+.blogs button{
+    padding: 10px;
+    background-color: crimson;
+    color: azure;
+    border-radius: 15px;
+}
+
+.blogs button:hover{
+    background-color: bisque;
+    color: brown;
+    font-size:  large;
 }

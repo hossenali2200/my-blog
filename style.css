@@ -82,3 +82,41 @@ input{
     font-size: xx-large;
     color: rgb(120, 6, 63);
 }
+
+.about{
+    display: flex;
+    margin-top: 20px;
+}
+
+.sidebar{
+    width: 400px;
+    height: 400px;
+    background-color: cadetblue;
+}
+.sidebar ul{
+    padding: 35px;
+}
+
+.sidebar li{
+    list-style: none;
+    margin-top: 10px;
+    background-color: brown;
+    padding: 10px;
+}
+.sidebar a{
+    text-decoration: none;
+    text-align: center;
+    
+    color: antiquewhite;
+}
+
+.sidebar li:hover{
+    background-color: antiquewhite;
+    color: brown;
+}
+
+.text{
+     margin-left: 300px;
+     
+    text-align: center;
+}

@@ -35,7 +35,8 @@ header a{
 header a:hover{
     background-color: rgb(55, 16, 162);
     font-size: larger;
-    display: inline-block;
+     
+    transition: .5s ease-in;
 }
 
 label{
@@ -53,7 +54,7 @@ input{
 }
 
 .hero{
-    background-image: url('/images/hero.jpg');
+    background-image:  url('/images/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
      
@@ -75,12 +76,14 @@ input{
     color: rgb(10, 10, 81);
     border-radius: 15px;
     font-size: larger;
+    cursor: pointer;
 }
 
 .hero button:hover{
     background-color: cadetblue;
     font-size: xx-large;
     color: rgb(120, 6, 63);
+    transition: .5s ease-in;
 }
 
 .about{
@@ -113,6 +116,8 @@ input{
 .sidebar li:hover{
     background-color: antiquewhite;
     color: brown;
+    transition: .5s ease-in;
+    font-size: larger;
 }
 
 .text{
@@ -120,6 +125,27 @@ input{
      
     text-align: center;
 }
+.detail{
+    display: flex;
+    background-color: gray;
+     
+}
+
+.left{
+    margin: 15px;
+    background-color: rgb(104, 102, 98);
+    padding: 8px;
+    color: aliceblue;
+    width: 50%;
+}
+.right{
+    margin: 15px;
+     
+    padding: 8px;
+    color: aliceblue;
+    width: 50%;
+}
+ 
 .blog{
     display: flex;
    
@@ -144,8 +170,9 @@ input{
 }
 
 .blogs img:hover{
-    width: 180px;
-    height: 180px;
+    width: 200px;
+    height: 200px;
+    transition: .5s ease-in;
 }
 
 .blogs button{
@@ -166,11 +193,91 @@ input{
     
 }
 
-.visit{
-    background-color: aqua;
-     margin: 6px 25px;
+.visit{ 
+    margin: 6px 25px;
      padding: 8px;
      text-align: center;
      border: 4px rgb(64, 255, 0) solid;
      border-radius: 12px;
 }
+
+.visit:hover{
+    background-color: darkorchid;
+    color: beige;
+    border: 8px rgb(38, 67, 29) solid;
+}
+
+.team{
+    display: flex;
+}
+.members{
+    background-color: aqua;
+     margin: 6px;
+     padding: 40px;
+     text-align: center;
+     border: 4px rgb(0, 255, 132) solid;
+     border-radius: 12px;
+}
+
+.members img:hover{
+    width: 210px;
+    height: 210px;
+    transition: .5s ease-in;
+    cursor: pointer;
+}
+
+.members button{
+    padding: 12px;
+    background-color: rgb(36, 85, 87);
+    color: aliceblue;
+    border-radius: 15px;
+}
+
+.members button:hover{
+    background-color: aliceblue;
+    color: rgb(36, 85, 87);
+    font-size: x-large;
+    transition: .5s ease-in;
+}
+.members h1{
+    color: coral;
+}
+.members h3{
+    color: darkorchid;
+}
+
+.right-1{
+    display: flex;
+    margin-top: 40px;
+    
+}
+
+.right-1 img{
+    margin: 20px;
+   text-align: center;
+
+}
+.type{
+    display: flex;
+    background-color: gray;
+    color: white;
+    margin-top: 60px;
+}
+.btn{
+   
+    padding: 15px;
+    font-size: large;
+    width: 220px;
+    background-color: blue;
+    color: white;
+    cursor: pointer;
+}
+
+.btn:hover{
+    background-color: brown;
+    color: aquamarine;
+    transition: .5s ease-in;
+    font-size: larger;
+}
+
+ 

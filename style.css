@@ -54,7 +54,7 @@ input{
 }
 
 .hero{
-    background-image:  url('/images/hero.jpg');
+    background-image:  url('./images/hero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
      
@@ -211,6 +211,7 @@ input{
     display: flex;
 }
 .members{
+    display: inline-block;
     background-color: aqua;
      margin: 6px;
      padding: 40px;
